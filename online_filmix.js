@@ -14,7 +14,7 @@
     // ============================================================
     //  КОНСТАНТЫ
     // ============================================================
-    const API_BASE   = 'https://filmixapp.vip/api/v2/';
+    const API_BASE   = 'https://fxapp.biz/api/v2/';
     const STORAGE    = {
         TOKEN:   'fxapi_token',
         UID:     'fxapi_uid',
@@ -53,8 +53,8 @@
             'user_dev_apk=2.2.13',
             'user_dev_id=' + uid,
             'user_dev_vendor=Xiaomi',
-            'user_dev_name=Xiaomi+24069PC21G',
-            'user_dev_os=12',
+            'user_dev_name=Xiaomi+2210132G',
+            'user_dev_os=16',
             'user_dev_token=' + token
         ].join('&');
         return Lampa.Utils.addUrlComponent(API_BASE + endpoint, params);
